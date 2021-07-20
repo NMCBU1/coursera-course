@@ -1,0 +1,75 @@
+#header-nav {
+  background-color: #808080;
+  border-radius: 0;
+  border: 0;
+}
+
+#content-title{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.navbar-brand h1{
+	margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+	color: white;
+	position: absolute;
+  	left: .8em;
+  	top: .4em;
+}
+
+h3{
+	margin-top: 20px;
+}
+
+li{
+	border: 1px solid black;
+	width: 100%;
+}
+
+.menu-item-description {
+	background-color: #808080;
+		margin-bottom: 50px;
+
+}
+
+.menu-item-details {
+	background-color: #808080;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#collapsable-nav{
+	background-color: #ADD8E6;
+	width: 100%;
+	padding-right: 120px;
+  padding-left: 120px;
+}
+
+#nav-list {
+  margin-bottom: 10px;
+  text-align: center;
+}
+#nav-list a {
+	background-color: #ADD8E6;
+  color: white;
+}
+#nav-list a:hover {
+  background: black;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
